@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Basu",
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["Content.js"]
+    }
+  ],
+  "browser_action": {
+    "default_popup": "Popup.html",
+    "default_title": "Kaby Lame"
+  }
+}
